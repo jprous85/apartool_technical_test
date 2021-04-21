@@ -16,15 +16,15 @@ class CategorySeeder extends Seeder
     {
         $categories = [
             [
-                'name' => 'Luxury',
+                'title' => 'Luxury',
                 'description' => 'Luxury apartment'
             ],
             [
-                'name' => 'Standard',
+                'title' => 'Standard',
                 'description' => 'Standard apartment'
             ],
             [
-                'name' => 'Regular',
+                'title' => 'Regular',
                 'description' => 'Regular apartment'
             ]
         ];
