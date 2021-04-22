@@ -19,4 +19,14 @@ and
 
 fill the database with the script:
 
-``./pap_migrations.sh dev``
+```php artisan migrate```
+
+```php artisan db:seed```
+
+And run the tests
+
+```php artisan test tests/Feature/ApartmentTest.php```
+
+File for testing in postman
+
+```apartool_test.postman_collection.json```

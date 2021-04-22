@@ -1,0 +1,453 @@
+{
+	"id": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+	"name": "apartool_test",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "apartment",
+			"description": "",
+			"collectionId": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+			"order": [
+				"ced19e8e-cc6b-6ef1-0fc3-e8cfbadfbee0",
+				"322660f1-2708-2ad3-7c80-f01a2b22c30f",
+				"38cd4fff-b9c0-ab3e-c2eb-9f831d903630",
+				"99dc95e7-aea5-81a5-a0cd-9ab496db6709",
+				"3d8340b3-42d7-2513-93e9-34f3ca0a5445",
+				"4234a4e3-062e-20e2-b2cd-1dd2a7395822"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "cb715d6f-9736-449c-1d3d-0876861e0cb7"
+		}
+	],
+	"folders_order": [
+		"cb715d6f-9736-449c-1d3d-0876861e0cb7"
+	],
+	"timestamp": 1619112623658,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "322660f1-2708-2ad3-7c80-f01a2b22c30f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/apartment/1?api_token=7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+			"data": [
+				{
+					"key": "name",
+					"value": "Grifo roto 2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apartment",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Pierde agua por las juntas del grifo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "por reparar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "budget",
+					"value": "150€",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Show single apartment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619113033293,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cb715d6f-9736-449c-1d3d-0876861e0cb7"
+		},
+		{
+			"id": "38cd4fff-b9c0-ab3e-c2eb-9f831d903630",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/apartment/create?api_token=7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+			"data": [
+				{
+					"key": "category_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "apartment test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "apartment test description",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "quantity",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Create apartment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619113144467,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cb715d6f-9736-449c-1d3d-0876861e0cb7"
+		},
+		{
+			"id": "3d8340b3-42d7-2513-93e9-34f3ca0a5445",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/apartment/trash/8?api_token=7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+			"data": [
+				{
+					"key": "category_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "apartment test modified",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "apartment test description",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "quantity",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Trash apartment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619113195228,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cb715d6f-9736-449c-1d3d-0876861e0cb7"
+		},
+		{
+			"id": "4234a4e3-062e-20e2-b2cd-1dd2a7395822",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/apartment/delete/8?api_token=7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+			"data": [
+				{
+					"key": "category_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "apartment test modified",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "apartment test description",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "quantity",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Delete apartment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619113221553,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cb715d6f-9736-449c-1d3d-0876861e0cb7"
+		},
+		{
+			"id": "99dc95e7-aea5-81a5-a0cd-9ab496db6709",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/apartment/update/8?api_token=7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+			"data": [
+				{
+					"key": "category_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "apartment test modified",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "apartment test description",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "quantity",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "update apartment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619113172773,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cb715d6f-9736-449c-1d3d-0876861e0cb7"
+		},
+		{
+			"id": "ced19e8e-cc6b-6ef1-0fc3-e8cfbadfbee0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/apartments?api_token=7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+			"folder": "f08a060d-e526-e220-d8a3-8d475254a80c",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "7ITvE1qiI4rVNPURcFEAfgR71mzPE2qh7XTbGK3RsUK9bitulvSTF8g7yZNa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "Grifo roto 2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apartment",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Pierde agua por las juntas del grifo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "por reparar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "budget",
+					"value": "150€",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1619113014324,
+			"name": "Show apartments",
+			"description": "",
+			"collectionId": "02b977bc-52d4-02b2-d24e-53fd64fb35b3",
+			"responses": []
+		}
+	]
+}
