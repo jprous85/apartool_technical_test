@@ -20,7 +20,7 @@ class CreateApartmentsTable extends Migration
             $table->string('description')->nullable();
             $table->integer('quantity')->nullable()->default(0);
             $table->integer('active')->default(0);
-            $table->dateTime('deleted_at')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
