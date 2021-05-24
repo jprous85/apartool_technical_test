@@ -1,8 +1,8 @@
 <?php
 
 use App\Http\Controllers\ApartmentController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Src\Infrastructure\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +22,9 @@ Route::middleware('auth:api')->group(function () {
     Route::post('/apartment/update/{id}', [ApartmentController::class, 'update'])->name('apartment-update');
     Route::get('/apartment/trash/{id}', [ApartmentController::class, 'trash'])->name('apartment-trash');
     Route::get('/apartment/delete/{id}', [ApartmentController::class, 'delete'])->name('apartment-delete');
+
+
+    Route::get('/category/show/{id}', [CategoryController::class, 'show'])->name('category-show');
+    Route::post('/category/create', [CategoryController::class, 'create'])->name('category-create');
+
 });
